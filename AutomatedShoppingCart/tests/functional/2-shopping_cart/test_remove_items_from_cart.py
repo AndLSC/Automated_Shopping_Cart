@@ -20,5 +20,3 @@ class TestRemoveShoppingCard:
 
         # Validate the shopping cart is empty
         assert shopping_cart_instance.is_cart_empty(), "The shopping cart is not empty removing all items."
-
-
