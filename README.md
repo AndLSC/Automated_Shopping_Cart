@@ -123,7 +123,7 @@ credentials are provided.
 [Image_4](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/1.authetication/test_login_failed/test_login_failed_4.png)
 [Image_5](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/1.authetication/test_login_failed/test_login_failed_5.png)
 
-[login/login failed console output]()
+[login/login failed console output](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/1.authetication/login_console_output.png)
 
 
 #### 3. Test Case: Logout
@@ -141,7 +141,7 @@ and the user is properly logged out.
 [Image_1](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/1.authetication/test_logout/test_logout_1.png)
 [Image_2](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/1.authetication/test_logout/test_logout_1.png)
 
-[Img_console result logout]()
+[Img_console result logout](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/1.authetication/logout_console_output.png)
 
 #### 4. Test Case: Add Item to the Cart
 Description: This test case validates that users can add items successfully to the shopping cart.  
@@ -193,7 +193,7 @@ Description: This test case verifies that users can update items successfully in
 [Image_4](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/2.shopping_cart/test_update_items_in_cart/test_update_items_in_cart_4.png)
 [Image_5](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/2.shopping_cart/test_update_items_in_cart/test_update_items_in_cart_5.png)
 
-[Img_shopping_cart console output]()
+[Img_shopping_cart console output](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/2.shopping_cart/shopping_cart_console_output.png)
 
 #### 7. Test Case: Proceed to Checkout
 Description: This test case ensures that users can complete the checkout process.  
@@ -216,7 +216,7 @@ Description: This test case ensures that users can complete the checkout process
 [Image_4](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/3.checkout/test_checkout_4.png)
 [Image_5](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/3.checkout/test_checkout_5.png)
 
-[Img_checkout console output]()
+[Img_checkout console output](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/3.checkout/checkout_console_output.png)
 
 
 
