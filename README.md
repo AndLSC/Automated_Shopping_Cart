@@ -268,4 +268,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## Contact Information
 
-For any questions or inquiries, please get in touch with Andreina at andreinasoto77@gmail.com
+For any questions or inquiries, please get in touch with me at andreinasoto77@gmail.com
