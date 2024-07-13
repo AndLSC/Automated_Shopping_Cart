@@ -93,6 +93,11 @@ valid credentials.
 | 3    | Click login button           | User is redirected to the inventory page                                        |
 | 4    | Validate URL                 | URL is "https://www.saucedemo.com/inventory.html"                               |
 
+#### Screenshots:
+[Image_1](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/1.authetication/test_login/test_login_1.png)
+[Image_2](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/1.authetication/test_login/test_login_2.png)
+
+
 #### 2. Test Case: Login Failed
 Description: This test case validates the login functionality by ensuring that the system displays an error message when invalid 
 credentials are provided. 
@@ -111,6 +116,16 @@ credentials are provided.
 | 10   | Login with empty username and password         | Username and password are empty                               |
 | 11   | Click login button                             | An error message is displayed (error-type 3)                  |
 
+#### Screenshots:
+[Image_1](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/1.authetication/test_login_failed/test_login_failed_1.png)
+[Image_2](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/1.authetication/test_login_failed/test_login_failed_2.png)
+[Image_3](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/1.authetication/test_login_failed/test_login_failed_3.png)
+[Image_4](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/1.authetication/test_login_failed/test_login_failed_4.png)
+[Image_5](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/1.authetication/test_login_failed/test_login_failed_5.png)
+
+[login/login failed console output]()
+
+
 #### 3. Test Case: Logout
 Description: This test case verifies the application's logout functionality to ensure that users can successfully log out of their accounts and confirm that the session is closed securely, 
 and the user is properly logged out.
@@ -122,6 +137,11 @@ and the user is properly logged out.
 | 3    | Click on logout button    | User is logged out and redirected to the login page    |                           |
 | 4    | Validate URL              | The URL "https://www.saucedemo.com/" is displayed      |                           |
 
+#### Screenshots:
+[Image_1](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/1.authetication/test_logout/test_logout_1.png)
+[Image_2](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/1.authetication/test_logout/test_logout_1.png)
+
+[Img_console result logout]()
 
 #### 4. Test Case: Add Item to the Cart
 Description: This test case validates that users can add items successfully to the shopping cart.  
@@ -135,6 +155,10 @@ Description: This test case validates that users can add items successfully to t
 | 5    | Validate cart items       | Cart contains the correct number of items              |                           |
 | 6    | Click on logout button    | Logout is executed                                     |                           |
 
+#### Screenshots:
+[Image_1](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/2.shopping_cart/test_add_items_to_cart/test_add_items_to_cart_1.png)
+[Image_2](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/2.shopping_cart/test_add_items_to_cart/test_add_items_to_cart_2.png)
+
 #### 5. Test Case: Remove Items from the Cart
 Description: This test case validates that users can remove items successfully from the shopping cart.  
 
@@ -145,6 +169,11 @@ Description: This test case validates that users can remove items successfully f
 | 3    | Open cart page            | Cart page is displayed                                 |                                           |
 | 4    | Remove items from cart    | Selected items are removed from the cart               |                                           |
 | 5    | Validate cart             | Cart is empty                                          |                                           |  
+
+#### Screenshots:
+[Image_1](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/2.shopping_cart/test_remove_items_from_cart/test_remove_items_from_cart_1.png)
+[Image_2](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/2.shopping_cart/test_remove_items_from_cart/test_remove_items_from_cart_2.png)
+[Image_3](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/2.shopping_cart/test_remove_items_from_cart/test_remove_items_from_cart_3.png)
       
 #### 6. Test Case: Update Item in the Cart
 Description: This test case verifies that users can update items successfully in the shopping cart.  
@@ -156,6 +185,15 @@ Description: This test case verifies that users can update items successfully in
 | 3    |                              |                                                     | Cart page is displayed                    |
 | 4    | Continuing to shopping       | Add new items to the cart                           |                                           |
 | 5    | Validate new items           | Cart reflects the updated items                     |                                           |
+
+#### Screenshots:
+[Image_1](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/2.shopping_cart/test_update_items_in_cart/test_update_items_in_cart_1.png)
+[Image_2](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/2.shopping_cart/test_update_items_in_cart/test_update_items_in_cart_2.png)
+[Image_3](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/2.shopping_cart/test_update_items_in_cart/test_update_items_in_cart_3.png)
+[Image_4](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/2.shopping_cart/test_update_items_in_cart/test_update_items_in_cart_4.png)
+[Image_5](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/2.shopping_cart/test_update_items_in_cart/test_update_items_in_cart_5.png)
+
+[Img_shopping_cart console output]()
 
 #### 7. Test Case: Proceed to Checkout
 Description: This test case ensures that users can complete the checkout process.  
@@ -171,6 +209,14 @@ Description: This test case ensures that users can complete the checkout process
 | 7    | Come back home page          | Order completion page is displayed                  |                                           |
 | 8    | Click on logout button       | Logout is executed                                  |                                           |
 
+#### Screenshots:
+[Image_1](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/3.checkout/test_checkout_1.png)
+[Image_2](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/3.checkout/test_checkout_2.png)
+[Image_3](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/3.checkout/test_checkout_3.png)
+[Image_4](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/3.checkout/test_checkout_4.png)
+[Image_5](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/3.checkout/test_checkout_5.png)
+
+[Img_checkout console output]()
 
 
 
