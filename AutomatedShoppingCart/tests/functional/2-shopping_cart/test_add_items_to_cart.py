@@ -25,6 +25,7 @@ class TestAddItemsShoppingCard:
 
         # Perform logout after the test
         logout_page_instance.execute_logout()
+    
 
 
 

@@ -1,9 +1,11 @@
+import time
+
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 from page_objects.base_page import BasePage
 
 
-class Checkout(BasePage):
+class CheckoutPage(BasePage):
     __checkout_button_locator = (By.ID, "checkout")
     __first_name_locator = (By.ID, "first-name")
     __last_name_locator = (By.ID, "last-name")
@@ -40,7 +42,7 @@ class Checkout(BasePage):
         super()._type(self.__postal_code_locator, postal_code)
         super()._click(self.__continue_button_locator)
         super()._click(self.__finish_button_locator)
-
+        
     @property
     def header(self):
         """

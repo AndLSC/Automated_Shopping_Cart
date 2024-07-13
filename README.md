@@ -1,5 +1,5 @@
 
-# Automated Shopping Cart Process with Selenium
+# Automated Shopping Cart with Selenium
 
 ## Project Description
 
@@ -17,7 +17,7 @@
 
 - [Features](#features)
 
-- [Test Cases](#test-cases)
+- [Test Cases Summary](#test-cases-summary)
 
 - [Project Structure](#project-structure)
 
@@ -80,7 +80,7 @@ pytest --browser=firefox
 
 
 
-## Test Cases
+## Test Cases Summary 
 
 #### 1. Test Case: Login
 Description: This test case verifies the login functionality of the application to ensure that users can successfully log in with 
@@ -101,10 +101,15 @@ credentials are provided.
 |------|------------------------------------------------|---------------------------------------------------------------|
 | 1    | Open login page                                | Login page is displayed                                       |
 | 2    | Enter incorrect username and correct password  | Incorrect username and correct password are entered           |
-| 3    | Click login button                             | An error message is displayed                                 |
+| 3    | Click login button                             | An error message is displayed (error-type 1)                  |
 | 4    | Enter correct username and incorrect password  | Correct username and incorrect password are entered           |
-| 5    | Click login button                             | The same error message in displayed                           |
-
+| 5    | Click login button                             | The same error message is displayed (error-type 1)            |
+| 6    | Enter correct username and empty password      | Correct username and empty password are entered               |
+| 7    | Click login button                             | An error message is displayed (error-type 2)                  |
+| 8    | Enter empty username and correct password      | Empty username and correct password are entered               |
+| 9    | Click login button                             | An error message is displayed (error-type 3)                  |
+| 10   | Login with empty username and password         | Username and password are empty                               |
+| 11   | Click login button                             | An error message is displayed (error-type 3)                  |
 
 #### 3. Test Case: Logout
 Description: This test case verifies the application's logout functionality to ensure that users can successfully log out of their accounts and confirm that the session is closed securely, 
@@ -150,7 +155,7 @@ Description: This test case verifies that users can update items successfully in
 | 2    |                              |                                                     | Items have already been added to the cart |
 | 3    |                              |                                                     | Cart page is displayed                    |
 | 4    | Continuing to shopping       | Add new items to the cart                           |                                           |
-| 5    | Validate updated items       | Cart reflects the updated items                     |                                           |
+| 5    | Validate new items           | Cart reflects the updated items                     |                                           |
 
 #### 7. Test Case: Proceed to Checkout
 Description: This test case ensures that users can complete the checkout process.  
@@ -193,7 +198,7 @@ The project is organized into the following directories and files:
       - **test_checkout_process.py**: Contains test cases for the complete checkout process.
 - **conftest.py**: Contains shared fixtures and configuration for the tests.
 - **reports/**: Directory for functional test reports.
--**pytest.ini**: Configures pytest settings and options, such as custom markers and command-line arguments, to control test behavior.
+- **pytest.ini**: Configures pytest settings and options, such as custom markers and command-line arguments, to control test behavior.
 - **requirements.txt**: Contains the list of Python dependencies required for the project.
 
 
