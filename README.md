@@ -19,6 +19,8 @@
 
 - [Test Cases Summary](#test-cases-summary)
 
+- [Video Demonstration](#video-demonstration)
+
 - [Project Structure](#project-structure)
 
 - [Technologies Used](#technologies-used)
@@ -217,6 +219,12 @@ Description: This test case ensures that users can complete the checkout process
 [Image_5](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/3.checkout/test_checkout_5.png)
 
 [Img_checkout console output](https://github.com/AndLSC/Automated_Shopping_Cart/blob/main/Screenshots/3.checkout/checkout_console_output.png)
+
+
+
+## Video Demonstration
+Watch the video demonstration below to see the automated shopping cart process in action, It covers the entire workflow from login to checkout.
+https://vimeo.com/985931226
 
 
 
