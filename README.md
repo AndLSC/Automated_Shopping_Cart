@@ -224,7 +224,7 @@ Description: This test case ensures that users can complete the checkout process
 
 ## Video Demonstration
 Watch the video demonstration below to see the automated shopping cart process in action, It covers the entire workflow from login to checkout.
-https://vimeo.com/985931226
+[Click here](https://vimeo.com/985931226)
 
 
 
