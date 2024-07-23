@@ -63,9 +63,11 @@
 
 ## Usage
 To run the tests, execute the following command:
+
 pytest --browser=chrome
 
 or to run in Firefox execute the following command:
+
 pytest --browser=firefox
 
 
