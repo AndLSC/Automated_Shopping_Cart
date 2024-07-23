@@ -278,4 +278,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## Contact Information
 
-For any questions or inquiries, please get in touch with me by filling out this [contact information form](#https://forms.gle/M9kkbVYsDNM4Zr1V8)
+For any questions or inquiries, please get in touch with me by filling out this [contact information form](https://forms.gle/M9kkbVYsDNM4Zr1V8)
